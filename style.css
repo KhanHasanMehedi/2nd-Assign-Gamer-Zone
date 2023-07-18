@@ -1,4 +1,44 @@
 *{
+    box-sizing: border-box;
+}
+.nav-container{
+    min-height: 50px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    max-width: 6000px;
+    margin: 0 auto;
+}
+.nav-logo{
+    display: flex;
+    width: 60%;
+}
+.nav-logo img{
+    width: 500px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+.nav-logo p{
+    font-size: 200px;
     padding: 0;
     margin: 0;
+    font-weight: bold;
+}
+.nav-logo span{
+    color:#FF42A5;
+}
+.nav-item{
+    width: 30%;
+    font-size: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.follow-btn{
+    background-color: #FF42A5;
+    padding: 10px,20px;
 }

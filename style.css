@@ -38,7 +38,110 @@
 .nav-item a{
     text-decoration: none;
 }
+
 .follow-btn{
-    background-color: #FF42A5;
-    padding: 10px,20px;
+    background-color: rgb(217, 225, 236)
 }
+.banner{
+    min-height: 550px;
+    background: white;
+    display: flex;
+    align-items: center;
+    max-width: 6000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.banner-text{
+    height: 1400px;
+    width: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 250px;
+}
+h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.sign-in{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.go-rogue{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-img{
+    height: 1400px;
+    width: 50%;
+}
+.banner-img img{
+    width: 50%;
+    margin-left: 800px;
+
+}
+
+.banner1{
+    min-height: 550px;
+    background: white;
+    display: flex;
+    align-items: center;
+    max-width: 6000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.banner1-img{
+    height: 1400px;
+    width: 60%;
+}
+.banner1-img img{
+    width:100%;
+}
+
+.banner1-text{
+    text-align: right;
+font-family: Work Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding-right: 800px;
+}
+.banner1-text p{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+}
+
+

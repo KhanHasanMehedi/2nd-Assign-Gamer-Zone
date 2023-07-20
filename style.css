@@ -259,5 +259,42 @@ margin-left: 900px;
     color: #de0989;
     border-radius: 10px;
 }
+.footer-container{
+height: 1000px;
+max-width: 6000px;
+background-color: rgb(226, 220, 231);
+text-align: center;
+padding: 80px;
+justify-content: space-between;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-logo p{
+    display: flex; 
+    width: 60%; 
+    margin-left: 10px;
+    justify-content: space-between;
+  
+}
+.footer-logo span{
+    color:#FF42A5;
+}
+.descibe{
+    align-items: center;
+    display: flex;
+}
+.icons{
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+}
+.privacy{
+    align-items: center;
+    display: flex; 
+    justify-content: space-between;
+}
 
 

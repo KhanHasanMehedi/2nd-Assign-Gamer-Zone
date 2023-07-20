@@ -235,5 +235,29 @@ margin-left: 900px;
     width: 35%;
     margin-top: -450px;
 }
+.rectangles{
+    height: 2000px;
+    background: rgb(242, 236, 236);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 6000px;
+    margin: 0 auto;
+}
+.rectangles img{
+    border: #4EC5F7;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+}
+.rectangles small{
+    font-size: 60px;
+}
+.change:hover{
+    cursor: pointer;
+    color: #de0989;
+    border-radius: 10px;
+}
 
 

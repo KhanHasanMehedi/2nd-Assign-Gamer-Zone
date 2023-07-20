@@ -1,3 +1,37 @@
 @media screen and (max-width:400px) {
-    
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item{
+        flex-direction: column;
+    }
+    .nav-item a{
+        margin-top: 15px;
+    }
+    .banner{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner3{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
 }
